@@ -1,6 +1,11 @@
 # 干货集市 vue2.0
 > vue2.0 vue-router vue-awesome-swiper robe-ajax webpack构建工具
 
+## 线上地址
+
+![点击进入](https://starshineff.github.io/gankShow/#/home)
+![](https://github.com/starshineFF/ff-gank-vue/blob/master/screen/erweima.png)
+
 ## 真机截图
 <img src="https://github.com/starshineFF/ff-gank-vue/blob/master/screen/1.PNG" width = "260" align=center />
 <img src="https://github.com/starshineFF/ff-gank-vue/blob/master/screen/2.PNG" width = "260" align=center />
