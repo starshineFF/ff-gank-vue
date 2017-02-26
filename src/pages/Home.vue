@@ -64,6 +64,20 @@ export default {
       isLoading: true
     }
   },
+  methods:{
+    getList(date){
+      $.ajax({
+        type:"GET",
+        url:`http://gank.io/api/day/${date} `,
+        dataType:"json",
+        success: (data) => {
+          this.images = data.results['福利'];
+          this.msg = data.results;
+          this.isLoading = false;
+        }
+     });
+    }
+  },
   components:{
     HeadTop,
     swiper,
@@ -74,20 +88,24 @@ export default {
     NavBar
   },
   created () {
-    $.ajax({
-      type:"GET",
-      url:"http://gank.io/api/day/2015/08/06 ",
-      dataType:"json",
-      success: (data) => {
-        console.log(data);
-        console.log(this.images);
-        this.images = data.results['福利'];
-        this.msg = data.results;
-        this.isLoading = false;
-      }
-   })
- }
+    let nowTime = sessionStorage['nowTime'];
+    if(!nowTime){
+      $.ajax({
+        type:"GET",
+        url:"http://gank.io/api/day/history",
+        dataType:"json",
+        success:(data)=>{
+          let newData = data.results[0];
+         newData = newData.split("-").join("/");
+         sessionStorage['nowTime'] = newData;
+          this.getList(newData);
+        }
+      })
+    }else{
+      this.getList(nowTime);
+    }
 
+ }
 }
 </script>
 
