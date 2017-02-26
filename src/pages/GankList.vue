@@ -55,7 +55,7 @@ export default {
       $.ajax({
         type:"GET",
         dataType:"json",
-        url:`http://gank.io/api/data/${this.txt}/10/${this.page}`,
+        url:`https://gank.io/api/data/${this.txt}/10/${this.page}`,
         success: (data)=>{
           console.log(data);
           this.itemData = data.results;
@@ -80,7 +80,7 @@ export default {
           $.ajax({
             type:"GET",
             dataType:"json",
-            url:`http://gank.io/api/data/${this.txt}/10/${this.page}`,
+            url:`https://gank.io/api/data/${this.txt}/10/${this.page}`,
             success: (data)=>{
               console.log(data);
               // this.itemData = data.results;

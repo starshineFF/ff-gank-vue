@@ -68,10 +68,11 @@ export default {
     getList(date){
       $.ajax({
         type:"GET",
-        url:`http://gank.io/api/day/${date} `,
+        url:`https://gank.io/api/day/${date} `,
         dataType:"json",
         success: (data) => {
           this.images = data.results['福利'];
+
           this.msg = data.results;
           this.isLoading = false;
         }
@@ -92,7 +93,7 @@ export default {
     if(!nowTime){
       $.ajax({
         type:"GET",
-        url:"http://gank.io/api/day/history",
+        url:"https://gank.io/api/day/history",
         dataType:"json",
         success:(data)=>{
           let newData = data.results[0];
