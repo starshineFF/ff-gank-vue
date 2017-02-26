@@ -31,6 +31,8 @@ export default {
   right: 0;
   bottom: 0;
   text-align: center;
+  overflow: scroll;
+  -webkit-overflow-scrolling: touch;
 }
 .wrapper a {
   font-size: .15rem;
