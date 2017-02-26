@@ -73,7 +73,7 @@ export default {
           e.target;
         // console.log(scrollHeight, scrollTop, offsetHeight);
         let totalheight = scrollTop + offsetHeight;
-        if(totalheight < scrollHeight && totalheight>scrollHeight-50){
+        if(totalheight>scrollHeight-50){
           this.isRequest = true;
           this.page++;
           this.isloading = true;
