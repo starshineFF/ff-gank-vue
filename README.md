@@ -1,4 +1,4 @@
-# 干货集市 vue2.0
+# 干货集市 vue2.0（移动端）
 > vue2.0 vue-router vue-awesome-swiper robe-ajax webpack构建工具
 
 ## 线上地址
