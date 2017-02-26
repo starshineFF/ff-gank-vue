@@ -8,9 +8,11 @@
 ![](https://github.com/starshineFF/ff-gank-vue/blob/master/screen/erweima.png)
 
 ## 真机截图
+
 <img src="https://github.com/starshineFF/ff-gank-vue/blob/master/screen/1.PNG" width = "260" align=center />
 <img src="https://github.com/starshineFF/ff-gank-vue/blob/master/screen/2.PNG" width = "260" align=center />
 <img src="https://github.com/starshineFF/ff-gank-vue/blob/master/screen/3.PNG" width = "260" align=center />
+
 
 <img src="https://github.com/starshineFF/ff-gank-vue/blob/master/screen/4.PNG" width = "260" align=center />
 <img src="https://github.com/starshineFF/ff-gank-vue/blob/master/screen/5.PNG" width = "260" align=center />
