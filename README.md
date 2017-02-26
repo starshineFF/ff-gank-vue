@@ -3,7 +3,8 @@
 
 ## 线上地址
 
-![点击进入](https://starshineff.github.io/gankShow/#/home)
+[点击进入](https://starshineff.github.io/gankShow/#/home)
+
 ![](https://github.com/starshineFF/ff-gank-vue/blob/master/screen/erweima.png)
 
 ## 真机截图
