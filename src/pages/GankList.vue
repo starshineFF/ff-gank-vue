@@ -116,7 +116,6 @@ export default {
   overflow: scroll;
   padding-top:.4rem;
   padding-bottom: .5rem;
-  -webkit-box-sizing: border-box;
   -webkit-overflow-scrolling: touch;
 }
   .loading{
