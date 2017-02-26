@@ -4,7 +4,7 @@
       <router-link to="/home" active-class="checked">
         <div class="nav-item ">
           <img src="../assets/logo.png" alt="" class="navbar-img">
-          <div>今日</div>
+          <div>最新</div>
         </div>
       </router-link>
       <router-link to="/gankList/1" active-class="checked">

@@ -72,7 +72,6 @@ export default {
         dataType:"json",
         success: (data) => {
           this.images = data.results['福利'];
-
           this.msg = data.results;
           this.isLoading = false;
         }
