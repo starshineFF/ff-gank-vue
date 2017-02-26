@@ -30,3 +30,8 @@ npm run build
 # build for production and view the bundle analyzer report
 npm run build --report
 ```
+## Thanks
+*[@干货集中营](http://gank.io/)*
+
+## License
+Apache License 2.0
